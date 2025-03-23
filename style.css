@@ -1,0 +1,102 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+header p {
+    color: #666;
+}
+
+/* Links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Section Titles */
+h2 {
+    color: #0073e6;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+}
+
+/* Education Section */
+.education {
+    background: #e9ecef;
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 5px solid #0073e6;
+}
+
+/* Projects */
+.project {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 5px solid #2ecc71;
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    margin: 0;
+    color: #333;
+}
+
+/* Skills */
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.skills li {
+    background: #dff0d8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Achievements */
+.achievements li {
+    background: #f2dede;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2c3e50;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
